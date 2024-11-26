@@ -4,6 +4,9 @@ This repository is a combonation of multiple projects altogether with central po
 - **DekHor Dorms**: Helps user find dorm near university that the like
 - **DekHor Markets**: Let users sell things
 
+<p align="center">
+    <img src="https://img.shields.io/github/contributors/NickKhunapoj/dekhor-portal?color=dark-green"> <img src="https://img.shields.io/github/stars/NickKhunapoj/dekhor-portal?style=social"> <img src="https://img.shields.io/github/license/NickKhunapoj/dekhor-portal">
+  
 ## Folder Structure
 The project is structured as follows:
 ```
