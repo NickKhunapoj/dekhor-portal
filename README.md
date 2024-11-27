@@ -1,7 +1,7 @@
 # DekHor!
 This repository is a combonation of multiple projects altogether with central portal to access application, including:
 - **DekHor Blogs**: An application that user can write blogs
-- **DekHor Dorms**: Helps user find dorm near university that the like
+- **DekHor Dorms**: Helps user find dorm near university that they like
 - **DekHor Eats**: Let users posts about food
 
 <p align="center">
