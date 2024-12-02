@@ -17,6 +17,7 @@
     "@types/node": "^16.11.14",
     "@types/react": "^18.0.28",
     "@types/react-dom": "^18.0.11",
+    "ajv": "^8.17.1",
     "axios": "^1.5.0",
     "base64-arraybuffer": "^1.0.2",
     "bootstrap": "^5.3.2",
@@ -46,7 +47,7 @@
     "build": "craco --openssl-legacy-provider build && npm run sentry:sourcemaps",
     "test": "craco test",
     "eject": "react-scripts eject",
-    "sentry:sourcemaps": "sentry-cli sourcemaps inject --org soft-dev-2 --project blogs-web ./build && sentry-cli --url https://linux-vm-southeastasia-3.southeastasia.cloudapp.azure.com sourcemaps upload --org soft-dev-2 --project blogs-web ./build"
+    "sentry:sourcemaps": "sentry-cli sourcemaps inject --org 0c3de0c5bc67 --project blogs-web ./build && sentry-cli sourcemaps upload --org 0c3de0c5bc67 --project blogs-web ./build"
   },
   "eslintConfig": {
     "root": true
