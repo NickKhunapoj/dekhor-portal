@@ -1,5 +1,5 @@
 # DekHor!
-This repository is a combonation of multiple projects altogether with central portal to access application, including:
+This mini-project is part of software development practice 2, mainly towards project management and workflow integrations. We combines multiple projects altogether, some are from previous subject and some are rewritten, with addition of central portal to access application, including:
 - **DekHor Blogs**: An application that user can write blogs
 - **DekHor Dorms**: Helps user find dorm near university that they like
 - **DekHor Eats**: Let users posts about food
