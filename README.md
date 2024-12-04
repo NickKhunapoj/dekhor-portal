@@ -7,6 +7,16 @@ This mini-project is part of software development practice 2, mainly towards pro
 <p align="center">
     <img src="https://img.shields.io/github/contributors/NickKhunapoj/dekhor-portal?color=dark-green"> <img src="https://img.shields.io/github/stars/NickKhunapoj/dekhor-portal?style=social"> <img src="https://img.shields.io/github/license/NickKhunapoj/dekhor-portal">
 
+## Deployment
+To deploy this whole projects, you will need
+- Supabase
+- 1 Cluster running Kubernetes
+- Sentry (I'm trying to remove this but I can't)
+- A github account
+- Container register
+You may begin with /helm folder and github action file to get the sense of the environment variable and secret you need.
+For sentry, you must create 1 Sentry project for each of sub-project. The total Sentry project will be 8. This must be configure before deploying, otherwise it will fail.
+
 ## Previews (Portal and Dorms section)
 <img align="center" alt="Screenshot 2567-12-03 at 17 06 32" src="https://github.com/user-attachments/assets/7c974dfa-f977-48b2-8c91-c1659781e0ad">
 <img align="center" alt="Screenshot 2567-12-03 at 17 06 32" src="https://github.com/user-attachments/assets/2a78e1c7-cf3c-4511-8375-b00f0700e150">
